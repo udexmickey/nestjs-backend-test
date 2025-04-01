@@ -111,7 +111,7 @@ nestjs-backend-auth/
 
 To test and interact with the API endpoints, you can use the **Postman** collection provided for this project. The collection contains pre-configured requests for all the authentication routes, such as registration, login, and biometric actions.
 
-- **Postman Collection Link**: [NestJS Backend Authentication - Postman Collection](https://www.postman.com/your-postman-link)
+- **Local Collection Link**: [NestJS Backend Authentication - Graphql Collection](http://localhost:3000/graphql)
 
 ---
 
