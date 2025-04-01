@@ -36,7 +36,7 @@ This project implements a user authentication system with **NestJS** and **Prism
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/nestjs-backend-auth.git
+   git clone https://github.com/udexmickey/nestjs-backend-test.git
    cd nestjs-backend-auth
    ```
 
@@ -52,29 +52,6 @@ This project implements a user authentication system with **NestJS** and **Prism
 4. **Configure `.env` file**:
    - Create a `.env` file in the root directory and fill in the necessary environment variables:
 
-   ```env
-   # Database Configuration
-   DB_PROTOCOL=postgresql
-   POSTGRES_USER=your-db-user
-   POSTGRES_PASSWORD=your-db-password
-   POSTGRES_DB=nestjs_db
-   DB_HOST=localhost
-   DB_PORT=5432
-
-   # Application Configuration
-   DOCKER_PORT=5432
-   PORT=4000
-   DATABASE_URL=postgresql://your-db-user:your-db-password@localhost:5432/nestjs_db
-   JWT_SECRET=your-jwt-secret
-   jwtExpiresTime=3600
-   SALTROUNDS=10
-   ```
-
-5. **Run Prisma Migrations**:
-   ```bash
-   npx prisma migrate dev
-   ```
-
 ---
 
 ## Environment Variables
@@ -83,6 +60,14 @@ Ensure the following environment variables are set correctly in your `.env` file
 - `JWT_SECRET`: Secret key used for signing JWT tokens.
 - `jwtExpiresTime`: Expiry time for JWT tokens (in seconds).
 - `SALTROUNDS`: Number of rounds for hashing passwords.
+- `PORT`: PORT Number you want the app/server to run on.
+
+---
+
+5. **Run Prisma Migrations**:
+   ```bash
+   npx prisma migrate dev
+   ```
 
 ---
 
